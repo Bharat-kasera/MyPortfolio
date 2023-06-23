@@ -25,23 +25,40 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>React</h4>
+              <h4>React.js</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Redux</h4>
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>SCSS</h4>
-            </article>
+            </article> */}
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Tailwind</h4>
+              <h4>Tailwind CSS</h4>
             </article>
           </div>
         </div>
         <div className="experience__backend">
+          <h3>UI/UX</h3>
+          <div className="experience__content">
+          <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Figma</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>UI research</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Web Design</h4>
+            </article>
+          </div>
+        </div>
+        {/* <div className="experience__backend">
           <h3>Back-end Development</h3>
           <div className="experience__content">
           <article className="experience__details">
@@ -69,7 +86,7 @@ const Experience = () => {
               <h4>Git/GitHub</h4>
             </article>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
