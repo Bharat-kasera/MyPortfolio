@@ -4,6 +4,8 @@ import Image3 from '../../assets/project03.png'
 import Image4 from '../../assets/project04.png'
 import Image5 from '../../assets/project05.png'
 import Image6 from '../../assets/project06.png'
+import Image7 from '../../assets/project08.png'
+
 
 
 const data = [
@@ -62,6 +64,15 @@ const data = [
         demo: 'http://egatortutorials.com',
         github: 'https://dribbble.com/shots/20419791-Dior-X-Air-Jordan-1-Retro-High'
     },
+    {
+        id: 7,
+        category: 'frontend',
+        image: Image7,
+        title: "Disney Plus clone",
+        desc: "A Disney Plus clone built with Vite.js that fetches data from an API and offers a visually appealing UI design similar to Disney Plus.",
+        demo: 'https://disney-clone-vitejs.vercel.app/',
+        github: 'https://disney-clone-vitejs.vercel.app/'
+    }
 ]
 
 
