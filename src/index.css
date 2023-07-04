@@ -15,8 +15,9 @@
   --color-bg-variant: #2c2c6c;
   /* --color-primary: #4db5ff; */
   --color-primary: #4fd4ec;
-  /* --color-primary: #FFD79E; */
-  /* --color-primary: #5340FF; */
+  /* --color-primary: #4DBA87; */
+
+
 
     
   --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -40,7 +41,7 @@ html {
 
 body {
   background-color: #171717;
-  /* background-color: #4643E7; */
+  /* background-color: #2D2E32; */
 
   color: var(--color-white);
   line-height: 1.7;
